@@ -1,0 +1,629 @@
+body {
+  background: #0402ff;
+  padding: 5% 1%;
+}
+.svg-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  overflow: visible;
+}
+.shadow {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  animation: shadow 13s linear infinite;
+}
+
+#red_b {
+  animation: animationRedB 13s linear infinite;
+}
+#gr_b {
+  animation: animationGrB 13s linear infinite;
+}
+#viol_f2 {
+  animation: animationViolF 13s linear infinite;
+}
+#red_f {
+  animation: animationRedF 13s linear infinite;
+}
+
+/*RIGHT*/
+#gr_b1 {
+  animation: animationGreenBRight 13s linear infinite;
+}
+#viol_b {
+  animation: animationViolBRight 13s linear infinite;
+}
+#viol_f {
+  animation: animationViolFRight 13s linear infinite;
+}
+#gr_f {
+  animation: animationGrFRight 13s linear infinite;
+}
+
+@keyframes shadow {
+
+  0% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  18% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  21% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  28.5% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  30% {
+    opacity: 0.4;
+    transform: scale(1.5);
+  }
+  30.5% {
+    opacity: 0.45;
+    transform: scale(1.5);
+  }
+  31% {
+    opacity: 0.4;
+    transform: scale(1.6);
+  }
+  41% {
+    opacity: 0.4;
+    transform: scale(1.5);
+  }
+  43% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  52% {
+    opacity: 0.25;
+    transform: scale(2.5);
+  }
+  52.5% {
+    opacity: 0.28;
+    transform: scale(2.55);
+  }
+  53% {
+    opacity: 0.25;
+    transform: scale(2.5);
+  }
+  71% {
+    opacity: 0.3;
+    transform: scale(2.5);
+  }
+  74% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  80% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  83% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  83.5% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  84% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+  100% {
+    opacity: 0.4;
+    transform: scale(2);
+  }
+}
+
+/*leftSide*/
+@keyframes animationRedB {
+  0% {
+    transform: translate(-24%, 0);
+  }
+  18% {
+    transform: translate(-24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  30.5% {
+    transform: translate(6%, 6%) scale(0.92);
+  }
+  31% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  41% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(5%, 4%) scale(0.8);
+  }
+  52.5% {
+    transform: translate(3%, 2%) scale(0.82);
+  }
+  53% {
+    transform: translate(5%, 4%) scale(0.8);
+  }
+  71% {
+    transform: translate(5%, 4%) scale(0.8);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(-24%, 0);
+  }
+  83.5% {
+    transform: translate(-22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(-24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(-24%, 0);
+  }
+}
+
+@keyframes animationGrB {
+  0% {
+    transform: translate(-24%, 0);
+  }
+  18% {
+    transform: translate(-24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  30.5% {
+    transform: translate(6%, 6%) scale(0.92) ;
+  }
+  31% {
+    transform: translate(8%, 8%) scale(0.9) ;
+  }
+  41% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(5%, 31%) scale(0.8);
+  }
+  52.5% {
+    transform: translate(3%, 29%) scale(0.82);
+  }
+  53% {
+    transform: translate(5%, 31%) scale(0.8);
+  }
+  71% {
+    transform: translate(5%, 31%) scale(0.8);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(-24%, 0);
+  }
+  83.5% {
+    transform: translate(-22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(-24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(-24%, 0);
+  }
+}
+
+@keyframes animationViolF {
+  0% {
+    transform: translate(-24%, 0);
+  }
+  18% {
+    transform: translate(-24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  30.5% {
+    transform: translate(-8%, -8%) scale(1.09) ;
+  }
+  31% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  41% {
+    transform: translate(-10%, -10%) scale(1.11);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(-8%, -19%) scale(1);
+  }
+  52.5% {
+    transform: translate(-6%, -17%) scale(1.02);
+  }
+  53% {
+    transform: translate(-8%, -19%) scale(1);
+  }
+  71% {
+    transform: translate(-8%, -19%) scale(1);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(-24%, 0);
+  }
+  83.5% {
+    transform: translate(-22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(-24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(-24%, 0);
+  }
+}
+@keyframes animationRedF {
+  0% {
+    transform: translate(-24%, 0);
+  }
+  18% {
+    transform: translate(-24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  30.5% {
+    transform: translate(-8%, -8%) scale(1.09) ;
+  }
+  31% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  41% {
+    transform: translate(-10%, -10%) scale(1.11);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(-14%, 1%) scale(1.15);
+  }
+  52.5% {
+    transform: translate(-12%, -1%) scale(1.17);
+  }
+  53% {
+    transform: translate(-14%, 1%) scale(1.15);
+  }
+  71% {
+    transform: translate(-14%, 1%) scale(1.15);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(-24%, 0);
+  }
+  83.5% {
+    transform: translate(-22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(-24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(-24%, 0);
+  }
+}
+/*rightSide*/
+@keyframes animationGreenBRight {
+  0% {
+    transform: translate(24%, 0);
+  }
+  18% {
+    transform: translate(24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  30.5% {
+    transform: translate(6%, 6%) scale(0.92);
+  }
+  31% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  41% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(34%, 4%) scale(0.8);
+  }
+  52.5% {
+    transform: translate(32%, 2%) scale(0.82);
+  }
+  53% {
+    transform: translate(34%, 4%) scale(0.8);
+  }
+  71% {
+    transform: translate(34%, 4%) scale(0.8);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(24%, 0);
+  }
+  83.5% {
+    transform: translate(22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(24%, 0);
+  }
+}
+@keyframes animationViolBRight {
+  0% {
+    transform: translate(24%, 0);
+  }
+  18% {
+    transform: translate(24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  30.5% {
+    transform: translate(6%, 6%) scale(0.92);
+  }
+  31% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  41% {
+    transform: translate(8%, 8%) scale(0.9);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(34%, 31%) scale(0.8);
+  }
+  52.5% {
+    transform: translate(32%, 29%) scale(0.82);
+  }
+  53% {
+    transform: translate(34%, 31%) scale(0.8);
+  }
+  71% {
+    transform: translate(34%, 31%) scale(0.8);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(24%, 0);
+  }
+  83.5% {
+    transform: translate(22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(24%, 0);
+  }
+}
+@keyframes animationViolFRight {
+  0% {
+    transform: translate(24%, 0);
+  }
+  18% {
+    transform: translate(24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  30.5% {
+    transform: translate(-8%, -8%) scale(1.09) ;
+  }
+  31% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  41% {
+    transform: translate(-10%, -10%) scale(1.11);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(19%, -17%) scale(1);
+  }
+  52.5% {
+    transform: translate(17%, -15%) scale(1.02);
+  }
+  53% {
+    transform: translate(19%, -17%) scale(1);
+  }
+  71% {
+    transform: translate(19%, -17%) scale(1);
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(24%, 0);
+  }
+  83.5% {
+    transform: translate(22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(24%, 0);
+  }
+}
+@keyframes animationGrFRight {
+  0% {
+    transform: translate(24%, 0);
+  }
+  18% {
+    transform: translate(24%, 0);
+  }
+  21% {
+    transform: translate(0, 0);
+  }
+  28.5% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(-10%, -10%) scale(1.11) ;
+  }
+  30.5% {
+    transform: translate(-8%, -8%) scale(1.09);
+  }
+  31% {
+    transform: translate(-10%, -10%) scale(1.11);
+  }
+  41% {
+    transform: translate(-10%, -10%) scale(1.11);
+  }
+  43% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(0, 0) scale(1);
+  }
+  52% {
+    transform: translate(10%, 2%) scale(1.15);
+  }
+  52.5% {
+    transform: translate(8%, 0) scale(1.17);
+  }
+  53% {
+    transform: translate(10%, 2%) scale(1.15);
+  }
+  71% {
+    transform: translate(10%, 2%) scale(1.15)
+  }
+  74% {
+    transform: translate(0, 0) scale(1);
+  }
+  80% {
+    transform: translate(0, 0) scale(1);
+  }
+  83% {
+    transform: translate(24%, 0);
+  }
+  83.5% {
+    transform: translate(22%, -2%) scale(1.02);
+  }
+  84% {
+    transform: translate(24%, 0) scale(1);
+  }
+  100% {
+    transform: translate(24%, 0);
+  }
+}
